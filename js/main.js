@@ -17,7 +17,8 @@ async function handleClick(pj) {
     //image
     let imagebox = "";
     for (let i = 0; i < info[pj]["img"].length; i++) {
-        imagebox += `<img src="/images/${info[pj]["img"][i]}" onclick="window.open(this.src, '_blank');"/>`
+        //github pages hosting, image url setting
+        imagebox += `<img src="/about-me/images/${info[pj]["img"][i]}" onclick="window.open(this.src, '_blank');"/>`
     }
     //link
     let linkbox = "";
