@@ -1,0 +1,53 @@
+{
+    "pj1": {
+        "title": "HK Local Slang 港咩話",
+        "desc": "A simple web app introducing Hong Kong local slang with some categories, using Vanilla JS. <br><br> Not only explaining meanings of the slang, you can also listen to its Cantonese pronunciation, powered by Web Speech API.",
+        "img": ["slang.png", "slang3.png", "slang2.png"],
+        "link": [
+            {"name": "<i class='bi bi-github'></i>GitHub", "url":"https://github.com/Dic21/hk-local-slang"},
+            {"name": "Demo", "url": "https://dic21.github.io/hk-local-slang/"}
+        ]
+    },
+    "pj2": {
+        "title": "Food Magazine Demo",
+        "desc": "An online media template themed on food, with an instant web scraper to discover hot topic among netizens. <br><br> Home page applies CSS Grid Layout to present clean and tidy interface, commonly found in modern online media design. The Frontend is developed by React JS with React Router, which effectively direct users to the corresponding categories in the media site. The Backend is developed with Express JS while articles stores in MongoDB. <br><br> There is a page titled 'Hot Topic on online forums', which scrapes data from several local popular forums by using Puppeteer. Visitors could know what's on trend in this page with tables and a wordcloud showing popular terms freqently mentioned by netizens <br><br> In addition, there is a CMS that allows admin to create or delete articles easily.",
+        "img": ["food.png", "food2.png", "food3.png", "food4.png", "food5.png"],
+        "link": [
+            {"name": "<i class='bi bi-github'></i>GitHub Frontend", "url":"https://github.com/Dic21/online-magazine"},
+            {"name": "<i class='bi bi-github'></i>GitHub Puppeteer", "url": "https://github.com/Dic21/puppeteer-forum-scraper"}
+        ]
+    },
+    "pj3": {
+        "title": "Hiking Social App",
+        "desc": "This is a social web app allows users to organize hiking events and communicate with others, created collaboratively with other teammates. <br><br> The web app demonstrated frontend part by React JS, with Express JS and MySQL for backend side. A member system is applied, using bcrypt password hashing and JWT web token for data resources authorization. Members not only could organize some hiking events on the system, but also publish reviews and share photos towards the places. For the hiking event, participants could interact with others through the chatroom and walkie-talkie.",
+        "img": ["hiking2.png","hiking.png","hiking4.png","hiking5.png", "hiking3.png"],
+        "link": [
+            {"name": "<i class='bi bi-github'></i>GitHub Frontend", "url":"https://github.com/Dic21/social-hike-frontend"},
+            {"name": "<i class='bi bi-github'></i>GitHub Backend", "url": "https://github.com/Dic21/social-hike-backend"}
+        ]
+    },
+    "pj4": {
+        "title": "Current District Profiles - GoogleChrome Extension",
+        "desc": "With this Chrome Extension tool created by JavaScript, you can get local weather and air quality condition at a glance.<br><br>This collects the data from Open APIs provided by HKO and EPD, showing the current situation of Air Quality and Temperture of some districts.",
+        "img": ["aqhi.png", "aqhi-2.png"],
+        "link": [
+            {"name": "<i class='bi bi-github'></i>GitHub", "url":"https://github.com/Dic21/district-profiles"}
+        ]
+    },
+    "pj5": {
+        "title": "Service Booking System",
+        "desc": "A backend project about service booking system where users can create or reserve a service, built by ExpressJS and MySQL",
+        "img": ["service.png", "service2.jpg"],
+        "link": [
+            {"name": "<i class='bi bi-github'></i>GitHub", "url":"https://github.com/Dic21/service-booking-sql"}
+        ]
+    },
+    "pj6": {
+        "title": "Trend Guessing Game",
+        "desc": "A mini web game created by React JS. Players have to guess the number trend and collect the lucky leaf as many as possible.",
+        "img": ["trendgame.png", "trendgame3.gif", "trendgame2.png"],
+        "link": [
+            {"name": "<i class='bi bi-globe'></i>Demo", "url":"https://trend-game-fez.web.app/"}
+        ]
+    }
+}
