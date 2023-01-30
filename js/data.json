@@ -5,7 +5,7 @@
         "img": ["slang.png", "slang3.png", "slang2.png"],
         "link": [
             {"name": "<i class='bi bi-github'></i>GitHub", "url":"https://github.com/Dic21/hk-local-slang"},
-            {"name": "Demo", "url": "https://dic21.github.io/hk-local-slang/"}
+            {"name": "<i class='bi bi-globe'></i>Demo", "url": "https://dic21.github.io/hk-local-slang/"}
         ]
     },
     "pj2": {
@@ -44,7 +44,7 @@
     },
     "pj6": {
         "title": "Trend Guessing Game",
-        "desc": "A mini web game created by React JS. Players have to guess the number trend and collect the lucky leaf as many as possible.",
+        "desc": "A mini web game created by React JS. Players have to guess the number trend and collect the lucky leaf as many as possible.<br><br> A Leaderboard feature was added as well, displaying the ranking of players with the number of earned leaves. Data is stored in Firebase database.",
         "img": ["trendgame.png", "trendgame3.gif", "trendgame2.png"],
         "link": [
             {"name": "<i class='bi bi-globe'></i>Demo", "url":"https://trend-game-fez.web.app/"}
