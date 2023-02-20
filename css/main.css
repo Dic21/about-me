@@ -230,6 +230,12 @@ i{
 .aboutme-link{
     color:#242f40
 }
+#aboutMe p:last-child{
+    padding-bottom:25px;
+}
+#aboutMe p{
+    padding-bottom:5px;
+}
 
 @keyframes wave {
     0% { transform: rotate( 0.0deg) }
